@@ -29,8 +29,10 @@ This exercise practices generating unique random values, constructing Android vi
 
 ## Local exploration
 
+See the [build and source review guide](docs/REVIEW_GUIDE.md) for wrapper commands, the game-state walkthrough, and a device-check checklist.
+
 1. Clone `https://github.com/JAEUK02/Andorid2025.git` and open the root project in Android Studio.
-2. Use a compatible Gradle JDK and install Android SDK 35 for compilation.
+2. Use JDK 17 to run the checked-in AGP 8.8.0 / Gradle 8.10.2 toolchain, and install Android SDK 35 with Build Tools 35.0.0. Java source compatibility 11 is separate from the Gradle runtime JDK requirement.
 3. Sync the Gradle project and run the `app` module on an emulator or device with API level 33 or above.
 
 The source was inspected for this documentation review; a build or emulator run was not performed.
